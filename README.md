@@ -1,2 +1,2 @@
-# ASGR
-An attribute-space graph recurrent quantile forecaster for retail chain-wide SKU level replenishment management
+# ASGR-- An attribute-space graph recurrent quantile forecaster for retail chain-wide SKU level replenishment management
+ This research solves the problem by proposing a novel global quantile demand forecasting model based on graph recurrent neural networks. The model first projects all the SKUs into a common attribute space and then constructs a product network graph according to their relative distances in the attribute space; the cross-item promotional information is then aggregated through a graph convolutional operator, and last, a recurrent neural network assembles all the related contexture information to generate SKU specific demand forecasts for target service levels. 
